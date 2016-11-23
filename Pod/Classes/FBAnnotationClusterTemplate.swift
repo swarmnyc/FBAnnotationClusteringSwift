@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public enum FBAnnotationClusterDisplayMode {
 	case SolidColor(sideLength: CGFloat, color: UIColor)
@@ -22,6 +23,7 @@ public struct FBAnnotationClusterTemplate {
 
 	public var fontSize: CGFloat = 15
 	public var fontName: String?
+    public var textColor: UIColor = .white
 
 	public var font: UIFont? {
 		if let fontName = fontName {

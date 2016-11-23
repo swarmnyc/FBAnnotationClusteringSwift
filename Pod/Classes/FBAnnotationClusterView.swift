@@ -74,7 +74,9 @@ public class FBAnnotationClusterView : MKAnnotationView {
 
 			layer.borderWidth = template.borderWidth
 			countLabel.font = template.font
+            countLabel.textColor = template.textColor
 			countLabel.text = "\(count)"
+            
 
 			setNeedsLayout()
 		}
